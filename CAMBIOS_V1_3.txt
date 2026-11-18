@@ -1,0 +1,10 @@
+ArcaSystem 1.3 - Actualización acumulativa sobre ArcaSystem 1.2
+1. Etiquetas españolas generales para formularios CRUD (incluye Agenda y eventos).
+2. Selector Español / English en cabecera; traducción visual parcial al inglés (los datos almacenados no se traducen).
+3. Exportar PDF institucional en Equipamiento y Auditoría, con logo, nombre, fecha, tablas y paginación.
+4. Montos de listados y paneles principales con separador de miles y dos decimales.
+5. Detalles de auditoría legibles en lugar de diccionarios JSON sin formato.
+6. Crear usuarios con contraseña segura y rol, con auditoría.
+7. Ocultar módulos por iglesia a no administradores; middleware también impide acceso por URL a módulos cubiertos.
+8. Migración 0008_modulevisibility. Iniciador BAT original conservado.
+NOTAS: Idioma inglés es una traducción visual parcial; algunos paneles especializados y textos dinámicos siguen en español. Los permisos existentes por rol se mantienen; revisar accesos de rutas especiales antes de uso en Internet. Probar primero en carpeta nueva y respaldar db.sqlite3 y media.

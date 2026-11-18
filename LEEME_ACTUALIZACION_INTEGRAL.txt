@@ -1,0 +1,9 @@
+ARCA SYSTEM - ACTUALIZACION INTEGRAL (ETAPA FUNCIONAL)
+
+Conserva el proyecto Django y su db.sqlite3 original.
+NUEVO: Agenda y eventos, ministerios, usuarios y roles, respaldo SQLite+media, asistencia QR con token firmado.
+EXISTENTE: miembros con fotos, configuracion con logo, finanzas, dashboards, reportes, mensajeria y auditoria.
+INSTALACION: extrae en una carpeta NUEVA; abre INICIAR_ARCASYSTEM.bat; instala dependencias y ejecuta migraciones.
+SEGURIDAD: el ZIP contiene datos y claves de tu instalacion. No lo compartas publicamente.
+LIMITACIONES: SMS reales, pagos en linea, chat en tiempo real, autenticacion 2FA y automatizaciones requieren trabajo adicional e integraciones. La lectura QR requiere un lector externo; el sistema permite pegar el token.
+PRUEBAS: verificar en Windows antes de usar con datos de produccion.

@@ -1,0 +1,12 @@
+ArcaSystem V11 - Actualización de asistencia
+
+INICIO: abre INICIAR_ARCASYSTEM.bat. Se crea un respaldo inicial de db.sqlite3 si no existe y se aplican migraciones.
+
+1. Entra en Cultos (o desde Asistencia -> Administrar cultos y actividades).
+2. Crea un culto con nombre y fecha/hora. Cada fecha es una sesión distinta.
+3. En Asistencia -> Nuevo registro elige culto, miembro, estado y modalidad.
+4. Asistencia -> Asistencia grupal permite registrar muchos miembros.
+5. Asistencia -> Dashboard presenta resumen por culto.
+6. Exportar CSV desde Asistencia conserva el reporte existente.
+
+La versión conserva la base de datos incluida en el ZIP original. Si tienes datos más recientes en otra carpeta, haz respaldo y copia su db.sqlite3 y media con el sistema cerrado antes de iniciar esta versión.

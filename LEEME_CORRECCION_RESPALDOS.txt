@@ -1,0 +1,16 @@
+ARCASYSTEM - CORRECCIÓN RESPALDOS WINDOWS
+
+Esta versión se construyó directamente desde ArcaSystem(5).zip.
+Corrección: las conexiones sqlite3 de origen y destino se cierran explícitamente ANTES de eliminar la carpeta temporal, evitando WinError 32.
+Incluye verificación de integridad SQLite y ZIP, mensajes de error y registro de auditoría.
+No se ha implementado restauración automática ni historial persistente de archivos de respaldo.
+
+INSTALACIÓN SEGURA
+1. Cierra ArcaSystem y guarda copia de tu carpeta anterior completa.
+2. Extrae este ZIP en una carpeta nueva.
+3. El ZIP contiene la base de datos y media recibidos. Si desde que enviaste el archivo agregaste datos, con ambas aplicaciones cerradas copia db.sqlite3 y media de tu instalación más reciente a la nueva. No sustituyas datos recientes con los del ZIP.
+4. Ejecuta INICIAR_ARCASYSTEM.bat con doble clic.
+5. En Copias de seguridad, pulsa Descargar respaldo ZIP y comprueba que el archivo se descargue.
+
+El respaldo contiene información personal de toda la instalación: protégelo.
+No se han validado todas las funciones con Windows real; sí se verificó la sintaxis y la integridad de la base de datos incluida.

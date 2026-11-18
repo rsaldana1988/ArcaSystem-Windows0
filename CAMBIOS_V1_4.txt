@@ -1,0 +1,11 @@
+ArcaSystem 1.4 - Acceso y recuperación
+- Mensaje 403 en español, sin quitar restricciones de administradores.
+- Enlace para recuperar contraseña por correo (Django, token temporal 30 minutos).
+- Enlace para recordar usuario por correo registrado.
+- Inicio de sesión con campos en español.
+- Página Mi cuenta accesible a cualquier usuario autenticado.
+- SMTP configurable mediante ARCA_EMAIL_BACKEND, ARCA_EMAIL_HOST, ARCA_EMAIL_PORT, ARCA_EMAIL_TLS, ARCA_EMAIL_USER, ARCA_EMAIL_PASSWORD y ARCA_FROM_EMAIL.
+- Sin SMTP, los correos se imprimen en consola SOLO PARA PRUEBAS; no llegan a la bandeja de entrada.
+- SMS no implementado: requiere proveedor y validación del número.
+- La sección Usuarios y permisos sigue siendo exclusiva de administradores: el 403 para otros roles es esperado.
+- Base de datos original conservada, sin migraciones nuevas.

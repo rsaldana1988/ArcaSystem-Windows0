@@ -1,0 +1,12 @@
+ACTUALIZACION FINANZAS - REPORTES Y TABLA
+
+1. Reporte PDF institucional: fecha y hora reales de generación, número de movimientos y fecha del último movimiento incluido.
+2. Exportaciones PDF, Excel y CSV: encabezado Cache-Control no-store para evitar reutilizar una descarga almacenada en caché.
+3. Tabla de Finanzas: se oculta la columna «Otra categoría»; el texto escrito para Otros gastos se muestra dentro de «Categoría del gasto». El campo y sus datos NO se eliminan de la base de datos.
+4. Reportes: se consultan los movimientos de la iglesia activa en la base de datos del sistema en ejecución, sin límite de 200.
+
+IMPORTANTE: Si falta un gasto en el nuevo PDF, compruebe que se está ejecutando la misma carpeta/base de datos donde aparece ese gasto. Este cambio no fusiona bases de datos distintas.
+
+ANTES DE INSTALAR: cierre ArcaSystem, respalde db.sqlite3 y la carpeta media.
+Descomprima el ZIP en una carpeta nueva y ejecute INICIAR_ARCASYSTEM.bat.
+No sobrescriba su db.sqlite3 más reciente con una copia antigua.

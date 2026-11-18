@@ -1,0 +1,1 @@
+Icono de Windows actualizado con el logo oficial proporcionado. Ejecutar CONSTRUIR_EJECUTABLE_WINDOWS.bat en Windows para compilar el EXE.

@@ -1,0 +1,15 @@
+ARCASYSTEM - ACTUALIZACION FINANZAS
+
+En Finanzas ahora aparecen Reporte PDF, Reporte Excel y Reporte CSV.
+Los tres botones reutilizan el generador institucional de Reportes.
+La ruta anterior /registros/finanzas/csv/ también utiliza el generador de CSV institucional.
+
+INSTALACION
+1. Cierre ArcaSystem y haga una copia completa de su carpeta actual.
+2. Extraiga este ZIP en una carpeta nueva.
+3. Si ha registrado datos después de enviar el ZIP, con ArcaSystem cerrado copie db.sqlite3 y media desde la instalación anterior.
+4. Ejecute INICIAR_ARCASYSTEM.bat. En el primer inicio se reinstalan dependencias si es necesario.
+5. Abra Finanzas y pruebe PDF, Excel y CSV.
+
+CSV no permite incrustar logo ni gráficos; PDF y XLSX sí.
+No se han alterado las tablas ni las migraciones.

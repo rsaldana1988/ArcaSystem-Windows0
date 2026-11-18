@@ -1,0 +1,14 @@
+ARCASYSTEM - VENTANA PROPIA WINDOWS
+
+1. HAZ COPIA DE SEGURIDAD de db.sqlite3, .arca_secret y media.
+2. Descomprime este paquete en Windows.
+3. Ejecuta CONSTRUIR_EJECUTABLE_WINDOWS.bat UNA SOLA VEZ para compilar.
+4. Abre dist\ArcaSystem\ArcaSystem.exe con doble clic.
+5. Para moverlo a otra computadora, copia TODA la carpeta dist\ArcaSystem.
+
+El EXE no está precompilado en este ZIP: debe construirse en Windows.
+Necesita Microsoft Edge WebView2 Runtime instalado (no abre Edge como navegador).
+Se corrigió la apertura automática de navegador y el error NoneType.write.
+Los errores de inicio se guardan en ArcaSystem_inicio_error.log.
+IMPORTANTE: el ZIP incluye la base de datos recibida; no reemplaces una base más reciente sin respaldo.
+Si un antivirus bloquea el programa, revisa su origen antes de autorizarlo.

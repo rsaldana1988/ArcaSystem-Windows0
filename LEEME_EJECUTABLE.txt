@@ -1,0 +1,16 @@
+ARCA SYSTEM - KIT PARA CREAR EJECUTABLE WINDOWS
+
+Este ZIP NO contiene un .exe compilado: incluye el proyecto y un generador de ejecutable para ejecutar en Windows.
+
+1. Descomprime el ZIP en Windows.
+2. Instala Python 3.13 o 3.14 de 64 bits y marca Add Python to PATH.
+3. Conecta Internet la primera vez para instalar dependencias.
+4. Ejecuta CONSTRUIR_EJECUTABLE_WINDOWS.bat.
+5. Abre dist\ArcaSystem\ArcaSystem.exe. Se abrirá en el navegador local.
+6. Para copiarlo a otra PC Windows, copia la carpeta COMPLETA dist\ArcaSystem.
+
+El ejecutable tiene el icono creado a partir del logo adjunto. El servidor se ejecuta localmente en 127.0.0.1:8000.
+
+ANTES de instalar actualizaciones, respalda db.sqlite3, media y .arca_secret.
+No abras dos instancias al mismo tiempo. Para detener el servidor cierra la ventana de consola.
+No se ha probado en un Windows real desde este entorno Linux.

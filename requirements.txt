@@ -1,0 +1,10 @@
+Django>=5.2,<6.0
+djangorestframework>=3.15,<4
+Pillow>=11
+mysqlclient>=2.2; platform_system != "Windows"
+PyMySQL>=1.1
+
+reportlab>=4.2,<6
+openpyxl>=3.1,<4
+
+qrcode[pil]>=8,<9

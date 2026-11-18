@@ -1,0 +1,22 @@
+ArcaSystem V10 - Ampliación sobre ArcaSystem(10).zip
+
+NUEVO:
+- Centro administrativo con indicadores, agenda y tareas.
+- Búsqueda general con permisos por rol.
+- Cierre financiero mensual con bloqueo de ediciones, eliminaciones y nuevos movimientos de meses cerrados.
+- Distribución informativa de diezmos (50/10/5/35), no realiza pagos.
+- Comprobantes PDF de movimientos y carnets PDF con QR.
+- Historial de préstamos, devoluciones y mantenimiento de equipos.
+- Acceso a respaldos existentes desde el nuevo centro.
+- Traducción de encabezados y tipos de Finanzas al español.
+
+NO INCLUIDO AÚN:
+- Instalador .exe compilado, traducción completa de todos los módulos, respaldos automáticos programados, actualizador con rollback, notificaciones automáticas o firmas electrónicas.
+
+INSTALACIÓN:
+1. Cierre ArcaSystem. Realice un respaldo completo verificado y guárdelo fuera de la carpeta de instalación.
+2. Extraiga el ZIP en una carpeta nueva. Si la base de datos original es más reciente que la incluida, copie db.sqlite3 y media desde la instalación actual con el sistema cerrado.
+3. Ejecute INICIAR_ARCASYSTEM.bat. Si no ejecuta migraciones automáticamente, use .venv\Scripts\python.exe manage.py migrate.
+4. Inicie sesión y abra Centro administrativo V10 desde el menú.
+
+SEGURIDAD: el paquete contiene información privada de la instalación suministrada, incluyendo la base de datos y clave local. No comparta el ZIP públicamente.

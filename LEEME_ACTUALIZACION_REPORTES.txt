@@ -1,0 +1,12 @@
+ARCASYSTEM — ACTUALIZACIÓN DE REPORTES
+
+1. Realiza una copia de seguridad de tu carpeta anterior.
+2. Descomprime este ZIP en una carpeta nueva.
+3. Si quieres conservar tus datos, copia db.sqlite3 y la carpeta media/ desde tu instalación anterior a esta carpeta. No reemplaces los datos sin copia de seguridad.
+4. Ejecuta INICIAR_ARCASYSTEM.bat con doble clic. La primera vez se instalarán reportlab y openpyxl, entre otras dependencias.
+5. Entra en Reportes para consultar indicadores y descargar PDF, Excel o CSV.
+6. Para que aparezca el logo real, configura el logo de tu iglesia desde el panel de administración de Django (Iglesias > tu iglesia > Logo). No se encontró un archivo de logo en el ZIP recibido.
+
+Los reportes respetan la iglesia asociada al usuario y los filtros por fechas afectan a movimientos financieros; las tarjetas de miembros, visitantes, asistencia, células y equipos muestran los totales generales de la iglesia.
+
+Esta actualización se ha verificado mediante compilación de sintaxis Python; no se ha probado la ejecución en Windows ni todas las pantallas de la aplicación.

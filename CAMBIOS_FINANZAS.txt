@@ -1,0 +1,13 @@
+ACTUALIZACIÓN FINANZAS — ARCASYSTEM
+Origen: ArcaSystem 1.4.0.zip (sin aplicar la actualización 1.6 descartada).
+- Conserva botón Editar existente, edición de monto, fecha, descripción y tipo; respeta cierres financieros.
+- Nuevo campo Categoría del gasto con categorías predefinidas y Otros.
+- Nuevo campo Nombre de la persona o proveedor para otros ingresos, donaciones y gastos.
+- Formulario dinámico: para gasto oculta Miembro y muestra categoría; para otro ingreso muestra nombre de persona.
+- Validación del lado servidor; los datos se guardan en campos nuevos.
+- Auditoría de edición financiera guarda valores anteriores.
+- Migración 0009 agrega columnas sin eliminar registros anteriores.
+- La edición de un gasto existente sin categoría requiere asignar una antes de guardar.
+- Se conserva la base de datos original dentro del ZIP.
+PRUEBAS PENDIENTES: ejecución funcional completa en Windows, migraciones y PDF con datos reales.
+SEGURIDAD: hacer respaldo de db.sqlite3 y media antes de usar.

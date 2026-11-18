@@ -1,0 +1,13 @@
+ARCA SYSTEM - COMPILACION AUTOMATICA EN GITHUB
+
+1. Abre tu repositorio PRIVADO ArcaSystem-Windows.
+2. Usa Add file > Upload files y sube los archivos y carpetas que hay DENTRO de la carpeta ArcaSystem de este ZIP, no el ZIP entero. GitHub web puede limitar la cantidad de archivos por carga.
+3. MUY IMPORTANTE: GitHub no permite crear facilmente rutas que empiezan con punto mediante el cargador web. La configuracion .github/workflows/windows.yml se puede crear con Add file > Create new file, escribiendo exactamente .github/workflows/windows.yml y pegando el contenido del archivo windows.yml de este paquete.
+4. Ve a Actions > Compilar ArcaSystem para Windows > Run workflow.
+5. Al terminar con exito, abre la ejecucion y descarga el artifact ArcaSystem-Windows.
+6. Descomprime TODO el artifact y ejecuta ArcaSystem.exe. No se ha probado en Windows; si falla, envia el log.
+
+PRIVACIDAD: se han excluido db.sqlite3, otras bases de datos, .arca_secret, media, respaldos y archivos de usuarios. Este ejecutable comenzara con una base de datos nueva. Para usar tus datos existentes, debes copiar localmente tu db.sqlite3 y media a la carpeta de la aplicacion DESPUES de descargarla, sin subirlos a GitHub. Haz copia de seguridad antes.
+
+REQUISITO: Microsoft Edge WebView2 Runtime en Windows.
+NOTA: No se incluye EXE compilado en este paquete. GitHub Actions lo compilara y publicara si la ejecucion es exitosa.

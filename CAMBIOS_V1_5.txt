@@ -1,0 +1,13 @@
+ArcaSystem 1.5 — Actualización integral (17/11/2026)
+
+- Usuarios: editar nombre, apellido y correo; activar/desactivar; retirar asociación con la iglesia sin borrar historial; se mantiene asignación de roles.
+- Seguridad: protección del último administrador activo y de la propia cuenta; operaciones registradas en auditoría.
+- Encabezado: nombre completo del usuario y menú Ver perfil / Recuperar contraseña / Cerrar sesión.
+- Formularios/listados: etiquetas comunes en español en Agenda, Miembros, Visitantes y Equipamiento; fechas legibles.
+- PDF institucional: Miembros y Visitantes con logo configurado y nombre de iglesia.
+- Panel: importes con separadores de miles y dos decimales.
+- Se mantienen los demás módulos y la base de datos original.
+
+INSTALACIÓN: descomprimir en carpeta nueva y ejecutar INICIAR_ARCASYSTEM.bat.
+Hacer respaldo de db.sqlite3 y media antes de reemplazar instalaciones con datos nuevos.
+La eliminación de usuarios es una desvinculación segura de la iglesia, no una eliminación irreversible de la cuenta global.

@@ -1,0 +1,9 @@
+ARCASESTEM 1.3 - REVISION DE USUARIOS Y FORMULARIOS
+
+1. La creación de usuarios ahora controla los nombres duplicados y presenta un error en el formulario en lugar de IntegrityError.
+2. Se mejoró la presentación de errores de validación del formulario.
+3. Se amplió la traducción al español de etiquetas comunes de formularios.
+4. Se conserva el selector Español/English existente. La traducción total de mensajes dinámicos y pantallas especializadas requiere pruebas adicionales.
+5. Se conservan el resto de archivos, la base de datos y el lanzador Windows del ZIP enviado.
+
+IMPORTANTE: Haga una copia de seguridad de db.sqlite3 y media antes de sustituir su instalación.

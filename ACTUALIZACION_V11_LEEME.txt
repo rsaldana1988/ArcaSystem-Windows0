@@ -1,0 +1,16 @@
+ArcaSystem V11 - Ampliación integral inicial
+
+NOVEDADES OPERATIVAS:
+- Centro V11 con indicadores por congregación y resumen de asientos.
+- Gestión desde /admin/v11/ de filiales, plan contable, asientos, nombramientos, instituto bíblico, ayudas sociales, visitas y correspondencia.
+- Conserva el código y los datos incluidos en la versión V10.
+
+NO IMPLEMENTADO EN ESTA ENTREGA:
+- Aislamiento multiiglesia validado de extremo a extremo en todos los módulos anteriores.
+- Contabilidad de partida doble automática, conciliación bancaria, aprobaciones de asientos y certificados académicos.
+- Instalador EXE ya compilado y copias programadas en Windows.
+- Pruebas integrales de ejecución en Windows.
+
+ANTES DE INSTALAR: hacer respaldo completo de la carpeta anterior.
+Para conservar datos posteriores a esta copia, con el sistema cerrado copiar db.sqlite3 y media desde la instalación actual.
+Luego ejecutar INICIAR_ARCASYSTEM.bat. No utilizar datos reales hasta verificar permisos y migraciones.
